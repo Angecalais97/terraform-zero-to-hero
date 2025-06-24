@@ -91,7 +91,7 @@ path "secrets/data/*" {
   capabilities = ["create", "read", "update", "delete", "list"]
 }
 
-path "kv/data/*" {
+path "carles-vault/data/*" {
   capabilities = ["create", "read", "update", "delete", "list"]
 }
 
